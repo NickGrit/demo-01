@@ -10,6 +10,7 @@ public class HelloWorld {
     @RequestMapping("hello")
     public String hello() {
         System.out.println("print Hello!");
+        System.out.println("print Hello!");
         return "你好 Idea！";
     }
 
